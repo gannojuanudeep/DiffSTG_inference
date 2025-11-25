@@ -59,5 +59,5 @@ plt.title(f'Probabilistic PM₂.₅ Forecast for Sensor #{sensor_to_plot}', font
 plt.xlabel('Time Step (Hour)', fontsize=12)
 plt.ylabel('Normalized PM₂.₅ Value', fontsize=12)
 plt.legend(fontsize=12)
-plt.show()
 plt.savefig('probabilistic_pm25_forecast.png')
+plt.show()

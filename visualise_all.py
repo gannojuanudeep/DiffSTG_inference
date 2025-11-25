@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # --- 1. Configuration ---
 # forecast_file_path = r'E:\SEM-9\Minor Project\DiffSTG\output2\output\forecast\UGnet+32+200+quad+0.1+200+ddpm+12+8+True+PM+0.0+False+False+0.002+32.pkl'
 # forecast_file_path = r"E:\SEM-9\Minor Project\DiffSTG\output3\output\forecast\UGnet+32+200+quad+0.1+200+ddpm+12+8+True+PM+0.0+False+False+0.002+32.pkl"
-forecast_file_path = r"./DiffSTG/output4/output/forecast/UGnet+32+200+quad+0.1+200+ddpm+96+8+True+PM+0.0+False+False+0.002+16.pkl"
+forecast_file_path = r"/DiffSTG/output4/output/forecast/UGnet+32+200+quad+0.1+200+ddpm+96+8+True+PM+0.0+False+False+0.002+16.pkl"
 # --- 2. Load and Convert Data ---
 print(f"Loading forecast data from {forecast_file_path}...")
 with open(forecast_file_path, 'rb') as f:

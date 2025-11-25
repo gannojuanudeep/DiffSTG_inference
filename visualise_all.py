@@ -15,6 +15,7 @@ with open(forecast_file_path, 'rb') as f:
 samples_tensor, targets_tensor, _, _ = all_data
 samples = samples_tensor.numpy()
 targets = targets_tensor.numpy()
+print(f"Samples shape: {samples.shape}, Targets shape: {targets.shape}")
 print("Data loaded and converted successfully!")
 
 # --- 3. Prepare Data for Plotting ---
